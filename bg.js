@@ -1,5 +1,7 @@
 var player = document.getElementById('J_playTracksList');
 
+if (!player) return;
+
 // 监听“不再播放“按钮的点击
 player.addEventListener('click', function(e) {
 	var unlikeBtn = e.target;
