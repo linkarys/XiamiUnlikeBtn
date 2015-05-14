@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "XiamiUnlikeBtn",
+	"description": "Xiami Unlike Btn",
+	"version": "1.0",
+	"permissions": ["http://www.xiami.com/play*"],
+	"content_scripts": [{
+		"matches": ["http://www.xiami.com/play*"],
+		"js": ["bg.js"],
+		"run_at": "document_end"
+	}]
+}
