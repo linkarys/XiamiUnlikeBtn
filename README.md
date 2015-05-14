@@ -14,4 +14,4 @@ Xiami Unlike Btn
 - Enjoy it!
 
 ## 截图
- ![截图](https://raw.githubusercontent.com/linkarys/img/master/Mis/xiami-add-dislike.png)
+ ![截图](https://raw.githubusercontent.com/linkarys/img/master/Xiami/unlike-demo.png)
