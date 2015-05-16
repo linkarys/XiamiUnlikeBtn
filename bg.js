@@ -64,7 +64,7 @@
 		while (node && node !== document.body) {
 			node = node.parentNode;
 
-			if (node.classList.contains(className)) return node;
+			if (node.classList && node.classList.contains(className)) return node;
 		}
 	}
 
